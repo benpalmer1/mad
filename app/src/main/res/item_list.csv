@@ -1,0 +1,25 @@
+#Name, hp, poison, value
+food,Berries,10,5,5
+food,Raw meat,10,30,10
+food,Cooked meat,20,5,20
+food,Tinned beans,15,0,10
+food,Pet food,10,20,5
+food,Soup bowl,20,0,15
+food,Apricots,10,5,7
+food,Bananas,10,0,10
+food,Cereal,15,0,16
+food,Raw Fish,15,30,10
+#equipment,name,item value, mass, reqd
+equipment,Jade monkey,250,10,true
+equipment,Roadmap,150,1,true
+equipment,Ice scraper,100,5,true
+equipment,Rock,1,0.5,false
+equipment,Rifle,40,10,false
+equipment,Fishing rod,10,10,false
+equipment,Knife,15,4,false
+equipment,Diamond necklace,70,1,false
+equipment,Briefcase,20,10,false
+equipment,Book,5,2,false
+equipment,Camping Tent,30,5,false
+equipment,Bucket,10,3,false
+equipment,Gold ring,50,0.1,false

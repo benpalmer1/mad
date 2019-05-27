@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Grid Game</string>
+
+    <string name="item_list">
+        #Name, hp, poison, value\n
+        food,Berries,10,5,5\n
+        food,Raw meat,10,30,10\n
+        food,Cooked meat,20,5,20\n
+        food,Tinned beans,15,0,10\n
+        food,Pet food,10,20,5\n
+        food,Soup bowl,20,0,15\n
+        food,Apricots,10,5,7\n
+        food,Bananas,10,0,10\n
+        food,Cereal,15,0,16\n
+        food,Raw Fish,15,30,10\n
+        #equipment,name,item value, mass, reqd\n
+        equipment,Jade monkey,250,10,true\n
+        equipment,Roadmap,150,1,true\n
+        equipment,Ice scraper,100,5,true\n
+        equipment,Rock,1,0.5,false\n
+        equipment,Rifle,40,10,false\n
+        equipment,Fishing rod,10,10,false\n
+        equipment,Knife,15,4,false\n
+        equipment,Diamond necklace,70,1,false\n
+        equipment,Briefcase,20,10,false\n
+        equipment,Book,5,2,false\n
+        equipment,Camping Tent,30,5,false\n
+        equipment,Bucket,10,3,false\n
+        equipment,Gold ring,50,0.1,false\n
+    </string>
+</resources>

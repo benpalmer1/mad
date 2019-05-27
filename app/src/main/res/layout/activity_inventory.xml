@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Back" />
+
+    <TextView
+        android:id="@+id/labelStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Tap to sell item (75% value)" />
+
+    <ListView
+        android:id="@+id/listItems"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/statusbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp">
+
+        <ImageView
+            android:id="@+id/cashicon"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_weight="1.5"
+            app:srcCompat="@mipmap/cashicon" />
+
+        <TextView
+            android:id="@+id/labelCash"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autoSizeMaxTextSize="30sp"
+            android:autoSizeMinTextSize="1sp"
+            android:autoSizeTextType="uniform"
+            android:gravity="center_vertical"
+            android:maxLines="2"
+            android:paddingLeft="5dp"
+            android:text="$100000" />
+
+        <ImageView
+            android:id="@+id/healthicon"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/healthicon" />
+
+        <TextView
+            android:id="@+id/labelHealth"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autoSizeMaxTextSize="30sp"
+            android:autoSizeMinTextSize="1sp"
+            android:autoSizeTextType="uniform"
+            android:gravity="center_vertical"
+            android:maxLines="2"
+            android:paddingLeft="5dp"
+            android:text="40HP" />
+
+        <ImageView
+            android:id="@+id/massicon"
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/massicon" />
+
+        <TextView
+            android:id="@+id/labelMass"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:autoSizeMaxTextSize="30sp"
+            android:autoSizeMinTextSize="1sp"
+            android:autoSizeTextType="uniform"
+            android:gravity="center_vertical"
+            android:maxLines="2"
+            android:paddingLeft="5dp"
+            android:text="32KG" />
+
+    </LinearLayout>
+
+</LinearLayout>

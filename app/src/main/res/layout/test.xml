@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/theLabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Important"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/textEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data"
+        app:layout_constraintTop_toBottomOf="@id/theLabel"
+        app:layout_constraintLeft_toLeftOf="parent" />
+    <Button
+        android:id="@+id/theButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Little Red Button"
+        app:layout_constraintTop_toBottomOf="@id/theLabel"
+        app:layout_constraintLeft_toRightOf="@id/textEntry" />
+
+</android.support.constraint.ConstraintLayout>
